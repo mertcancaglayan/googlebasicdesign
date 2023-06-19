@@ -10,6 +10,7 @@
 .headerli {
     text-align: right;
     float: right;
+    /* liste elemanlarını sağ tarafa yanaştırmak için eklendi */
 }
 
 .headerli a {
@@ -39,7 +40,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
-  border-radius: 24px;
+  border-radius: 24px;   /* arama kısmına şekil vermek için eklendi ve bir üst kısımla aynı derecede */
 }
 
 .search-area:hover {
@@ -71,6 +72,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 
+/* Sesli arama resmi kısmı başlangıç */
 .voice-img {
     align-items: center;
     padding-right: 5px;
@@ -88,6 +90,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
     width: 20px;
     line-height: 14px;
 }
+/* Sesli arama resmi kısmı sonu */
+
 
 
 .input-enter {
@@ -127,11 +131,12 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
-  width: 480px;
-  border: 0px solid;
-  border-radius: 24px;
+  width: 480px; /* İstenilen Şekilde genişlik ayarlandı */ 
+  border: 0px solid; /* İstenilen Şekilde border ayarlandı */ 
+  border-radius: 24px; /* İstenilen Şekilde border ayarlandı */ 
 }
 
+/* buttonların konumları için css eklendi */
 .buttons {
     text-align: center;
     margin-top: 15px;
@@ -159,6 +164,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
     user-select: none;
 }
 
+/* buttonların şekilleri için css eklendi */
 .button-style { 
     border: 1px solid #f2f2f2;
     font-family: Arial;
@@ -186,7 +192,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli {
   float: left;
-  list-style-type: none;
+  list-style-type: none; /* liste elemanları stili değiştirildi */
 }
 
 .footerli a {
